@@ -1,0 +1,51 @@
+.container {
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(19, 25, 33);
+    color: white;
+}
+
+.header h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.home-top-menu {
+    color: white;
+    background-color: rgb(35, 47, 62);
+    height: 40px;
+}
+
+.imagem-header {
+    background-image: url("../../../assets/_Amazon.png");
+    background-repeat: no-repeat;
+    background-position: 25px 15px;
+    width: 200px;
+    height: 62px;
+}
+
+
+.location p h3{
+    margin-left: 10px;
+}
+.location p h2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.iconLocation{
+    margin-left: -15px;
+}
+
+.search{
+   margin-right: 10px;
+   margin-left: 30px;
+}
+
