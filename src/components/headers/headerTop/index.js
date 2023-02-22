@@ -1,6 +1,9 @@
 import React ,{}from "react";
 import './header.css'
 import PlaceIcon from '@mui/icons-material/Place';
+import Select from "../../select";
+import * as C from '../../styledComponent'
+import Search from "../../search";
 
 
 
@@ -13,11 +16,13 @@ export default props => {
                     <p><h3>Enviar para Gilson</h3></p>
                     <p><h2><PlaceIcon className="iconLocation"/>Chapadinha 65500000</h2></p>
                 </div>
-                <div>
+               <C.Container>
                     <form className="search">
-                        <input type="text" />
+                        <Select/>
+                        <input type='text'/>
+                        <Search/>
                     </form>
-                </div>
+               </C.Container>
             </div>
         </div>
     )
