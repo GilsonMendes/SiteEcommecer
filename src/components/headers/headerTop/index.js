@@ -3,7 +3,8 @@ import './header.css'
 import PlaceIcon from '@mui/icons-material/Place';
 import Select from "../../select";
 import * as C from '../../styledComponent'
-import Search from "../../search";
+import SearchButton from "../../search/button";
+import SearchInput from '../../search/searchInput'
 
 
 
@@ -19,8 +20,9 @@ export default props => {
                <C.Container>
                     <form className="search">
                         <Select/>
-                        <input type='text'/>
-                        <Search/>
+                        <SearchInput/>
+                        <SearchButton/>
+                        
                     </form>
                </C.Container>
             </div>
