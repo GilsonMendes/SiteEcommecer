@@ -5,6 +5,9 @@ import Select from "../../select";
 import * as C from '../../styledComponent'
 import SearchButton from "../../search/button";
 import SearchInput from '../../search/searchInput'
+import MenuDropDown from "../menuDropDown";
+import ButtonDevo from "../buttonDevo";
+import Carrinho  from "../carinhoCompra";
 
 
 
@@ -22,6 +25,9 @@ export default props => {
                         <Select/>
                         <SearchInput/>
                         <SearchButton/>
+                        <MenuDropDown/>
+                        <ButtonDevo/>
+                        <Carrinho/>
                         
                     </form>
                </C.Container>
