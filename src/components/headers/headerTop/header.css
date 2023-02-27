@@ -1,5 +1,10 @@
 .container {
-    
+
+}
+
+.Area-menus{
+    display: flex;
+    align-items:center;
 }
 
 .header {
@@ -48,13 +53,19 @@
    display: flex;
    margin-right: 50px;
    align-items: center;
+   /* background-color: rgb(255, 154, 0); */
    justify-content: center;
-  /*  background-color: rgb(255, 154, 0);  */
    padding: 2px;
    outline: 0;
    border-top-left-radius: 5px;
    border-top-right-radius: 5px;
    border-bottom-left-radius: 5px;
    border-bottom-right-radius: 5px;
+}
+
+
+.menu-rigth{
+    display: flex;
+    align-items: center;
 }
 

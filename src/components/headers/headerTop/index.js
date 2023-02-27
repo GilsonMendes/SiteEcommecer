@@ -1,4 +1,4 @@
-import React ,{}from "react";
+import React, { } from "react";
 import './header.css'
 import PlaceIcon from '@mui/icons-material/Place';
 import Select from "../../select";
@@ -7,7 +7,7 @@ import SearchButton from "../../search/button";
 import SearchInput from '../../search/searchInput'
 import MenuDropDown from "../menuDropDown";
 import ButtonDevo from "../buttonDevo";
-import Carrinho  from "../carinhoCompra";
+import Carrinho from "../carinhoCompra";
 
 
 
@@ -18,19 +18,24 @@ export default props => {
                 <div className="imagem-header"></div>
                 <div className="location">
                     <p><h3>Enviar para Gilson</h3></p>
-                    <p><h2><PlaceIcon className="iconLocation"/>Chapadinha 65500000</h2></p>
+                    <p><h2><PlaceIcon className="iconLocation" />Chapadinha 65500000</h2></p>
                 </div>
-               <C.Container>
-                    <form className="search">
-                        <Select/>
-                        <SearchInput/>
-                        <SearchButton/>
-                        <MenuDropDown/>
-                        <ButtonDevo/>
-                        <Carrinho/>
-                        
-                    </form>
-               </C.Container>
+                <C.Container>
+                    <div className="Area-menus">
+                        <form className="search">
+                            <Select />
+                            <SearchInput /> 
+                            <SearchButton />
+                        </form>
+                        <div className="menu-rigth">
+                            <MenuDropDown />
+                            <ButtonDevo />
+                            <Carrinho />
+
+                        </div>
+                    </div>
+
+                </C.Container>
             </div>
         </div>
     )

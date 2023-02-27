@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+   
     select{
+
         display: flex;
         margin-top: -1px;
         align-items: center;
@@ -40,6 +42,15 @@ export const Container = styled.div`
         background-color:rgb(243, 168, 71);
 
     }
+
+    form:focus-within{
+        background-color: orange;
+    }
+
+    select>form:focus{
+        border: 2px solid;
+        background-color: '#FFF';
+    } 
    
     
  
