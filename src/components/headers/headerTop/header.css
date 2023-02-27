@@ -27,6 +27,7 @@
 }
 
 .imagem-header {
+    margin-left: -12px;
     background-image: url("../../../assets/_Amazon.png");
     background-repeat: no-repeat;
     background-position: 25px 15px;
@@ -36,13 +37,13 @@
 
 
 .location p h3{
-    margin-left: 10px;
+    margin-left: -5px;
 }
 .location p h2{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 5px;
+  margin-left: -20px;
 }
 
 .iconLocation{

@@ -13,7 +13,32 @@ export default prosp => {
                         <ul>
                             <li>
                                 <div>
-                                    <h1>Olá</h1>
+                                    <div className="box-txt1">
+                                        <p>
+                                            sombra em volta de um elemento.
+                                            Você pode especificar mais de um efeito,
+                                            os separando com virgulas.
+                                        </p>
+                                    </div>
+                                    <hr className="linha-div1" />
+
+                                    <div className="box-txt1">
+                                        <p>
+                                            sombra em volta de um elemento.
+                                            Você pode especificar mais de um efeito,
+                                            os separando com virgulas.
+                                        </p>
+                                    </div>
+
+                                    <hr className="linha-div2" />
+                                    <div className="box-txt2">
+                                        <p>
+                                            sombra em volta de um elemento.
+                                            Você pode especificar mais de um efeito,
+                                            os separando com virgulas.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </li>
                         </ul>
