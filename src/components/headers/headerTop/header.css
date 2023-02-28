@@ -13,6 +13,8 @@
     justify-content: space-between;
     background-color: rgb(19, 25, 33);
     color: white;
+    height: 64px;
+    width: 100%;
 }
 
 .header h1 {
@@ -27,27 +29,37 @@
 }
 
 .imagem-header {
-    margin-left: -12px;
+    margin-right: 30px;
     background-image: url("../../../assets/_Amazon.png");
     background-repeat: no-repeat;
     background-position: 25px 15px;
-    width: 200px;
+    width: 175px;
     height: 62px;
 }
 
+.imagem-header:hover{
+    border: 1px solid white;
+    height: 59px;
+}
+.location{
+    width: 180px;
+    height: 60px;
+    margin-left: -30px;
+}
+
+.location:hover{
+    border: 1px solid white;
+}
 
 .location p h3{
-    margin-left: -5px;
-}
-.location p h2{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: -20px;
+    margin-top: 5px;
+    margin-left: 30px;
 }
 
+
+
 .iconLocation{
-    margin-left: -15px;
+    margin-left: 5px;
 }
 
 .search{

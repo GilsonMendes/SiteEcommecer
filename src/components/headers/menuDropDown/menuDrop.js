@@ -28,8 +28,8 @@ export const Container = styled.div`
    }
 
    div:hover ul{
+      transition: 1s;
       display: block;
-      
    }
 
    .box-colum1{
@@ -39,6 +39,12 @@ export const Container = styled.div`
       margin-top: 0%;
       width: 250px;
       background-color: rgb(255, 255, 255);
+   }
+   .box-colum1 h3{
+      padding-top: 10px;
+      padding-left: 10px;
+      font-size: 20px;
+      font-weight: 700;
    }
    .box-colum1 ul{
       left: 5%;
@@ -77,6 +83,13 @@ export const Container = styled.div`
       width: 250px;
    }
 
+   .box-colum2 h3{
+      padding-top: 10px;
+      padding-left: 10px;
+      font-size: 20px;
+      font-weight: 700;
+   }
+
    .box-colum2 ul{
       left: 5%;
    }
@@ -93,7 +106,7 @@ export const Container = styled.div`
    .box-colum2 hr{
       position: absolute;
       width: 220px;
-      bottom: 42px;
+      bottom: 35px;
       left: 10px;
    }
 
@@ -103,7 +116,7 @@ export const Container = styled.div`
       box-shadow: none;
       position: absolute;
       background-color: rgb(255, 255, 255);
-      height: 40px;
+      height: 35px;
       width: 220px;
       bottom: 1px;
       padding: 4px;
