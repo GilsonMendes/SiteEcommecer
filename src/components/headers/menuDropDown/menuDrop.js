@@ -38,7 +38,7 @@ export const Container = styled.div`
       left: 0%;
       margin-top: 0%;
       width: 250px;
-      background-color: aqua;
+      background-color: rgb(255, 255, 255);
    }
    .box-colum1 ul{
       left: 5%;
@@ -49,7 +49,8 @@ export const Container = styled.div`
    }
 
    .box-colum1 ul li:hover{
-      text-decoration: 2px underline red;
+      text-decoration: 1px underline rgb(243, 168, 71);
+      color: rgb(243, 168, 71);
    }
 
    .box-colum1 hr{
@@ -63,13 +64,14 @@ export const Container = styled.div`
    }
 
    p:hover{
-    text-decoration: 2px underline red;
+      text-decoration: 1px underline rgb(243, 168, 71);
+      color: rgb(243, 168, 71);
    }
 
    .box-colum2{
       color: black;
       position: absolute;
-      background-color: aliceblue;
+      background-color: rgb(255, 255, 255);
       right: 22%;
       margin-top: 0%;
       width: 250px;
@@ -85,7 +87,8 @@ export const Container = styled.div`
    }
 
    .box-colum2 ul li:hover{
-      text-decoration: 2px underline red;
+      text-decoration: 1px underline rgb(243, 168, 71);
+      color: rgb(243, 168, 71);
    }
    .box-colum2 hr{
       position: absolute;
@@ -96,10 +99,12 @@ export const Container = styled.div`
 
    .footer{
       color: black;
+      border: 0;
+      box-shadow: none;
       position: absolute;
-      background-color: none;
+      background-color: rgb(255, 255, 255);
       height: 40px;
-      width: 240px;
+      width: 220px;
       bottom: 1px;
       padding: 4px;
       margin: 0 auto;
