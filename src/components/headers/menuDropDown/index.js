@@ -13,32 +13,42 @@ export default prosp => {
                         <ul>
                             <li>
                                 <div>
-                                    <div className="box-txt1">
-                                        <p>
-                                            sombra em volta de um elemento.
-                                            Você pode especificar mais de um efeito,
-                                            os separando com virgulas.
-                                        </p>
-                                    </div>
-                                    <hr className="linha-div1" />
 
-                                    <div className="box-txt1">
-                                        <p>
-                                            sombra em volta de um elemento.
-                                            Você pode especificar mais de um efeito,
-                                            os separando com virgulas.
-                                        </p>
+                                    <div className="box-colum1">
+                                        <h3>Suas Listas</h3>
+                                        <ul>
+                                            <li>Lista de compras</li>
+                                            <li>Lista de compras</li>
+                                        </ul>
+                                        <hr />
+                                        <p>Criar uma lista de desejos</p>
+                                    </div>
+                                    <div className="box-colum2">
+                                        <h3>Sua Conta</h3>
+                                        <ul>
+                                            <li>Sua conta</li>
+                                            <li>Seus pedidos</li>
+                                            <li>Sua lista de desejos</li>
+                                            <li>Recomendados para você</li>
+                                            <li>Programe e Poupe</li>
+                                            <li>Sua assinaturas Prime</li>
+                                            <li>Inscrições e assinaturas</li>
+                                            <li>Gerencie seu conteúdo e dispositivo</li>
+                                            <li>Seu Amazon Music</li>
+                                            <li>Seu Prime Video</li>
+                                            <li>Seu Kindle Unlimited</li>
+                                            <li>Seu Amazon Drive em Amazon.com</li>
+                                            <li>Seus aplicativos e dispositivos</li>
+                                        </ul>
+
+                                        <hr />
+                                        <div className="footer">
+                                            <p>Trocar de conta</p>
+                                            <p>Sair da Conta</p>
+                                        </div>
+
                                     </div>
 
-                                    <hr className="linha-div2" />
-                                    <div className="box-txt2">
-                                        <p>
-                                            sombra em volta de um elemento.
-                                            Você pode especificar mais de um efeito,
-                                            os separando com virgulas.
-                                        </p>
-                                    </div>
-                                    
                                 </div>
                             </li>
                         </ul>
